@@ -1,0 +1,138 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "projects": "Projects",
+    "awards": "",
+    "education": "Education",
+    "skills": "Skills",
+    "work": "Work Experience"
+  },
+  "basics": {
+    "name": "Dániel Arany",
+    "email": "arany.daniel1999@gmail.com",
+    "phone": "+36 30 290 1219",
+    "website": "https://github.com/Goldan32"
+  },
+  "education": [
+    {
+      "institution": "Budapest University of Technology and Economics",
+      "area": "Electrical Engineering",
+      "studyType": "MSc",
+      "location": "Budapest",
+      "startDate": "February 2022"
+    },
+    {
+      "institution": "Budapest University of Technology and Economics",
+      "area": "Electrical Engineering",
+      "studyType": "BSc",
+      "location": "Budapest",
+      "startDate": "September 2018",
+      "gpa": "4.6",
+      "endDate": "January 2022"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Assisting the Firmware Team by writing low level software codes and unit tests.",
+        "Implementing bigger features and writing documentation."
+      ],
+      "company": "Flex",
+      "position": "Software Developer Trainee",
+      "startDate": "2021"
+    },
+    {
+      "company": "Budapest University of Technology and Economics",
+      "website": "",
+      "endDate": "",
+      "highlights": [
+        "Teaching intro level programming and digital technology classes for first year students, by explaining and presenting solutions to tasks.",
+        "Assisting the instructor in computer labs by helping the students individually."
+      ],
+      "position": "Demonstrator"
+    },
+    {
+      "highlights": [
+        "Communicating with students mostly via email and advising them about school policy.",
+        "Representing student interests at various meetings."
+      ],
+      "company": "Budapest University of Technology and Economics",
+      "position": "Student Council Representative",
+      "startDate": "2020",
+      "endDate": "2021"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "C/C++, Embedded C",
+        "Python",
+        "BASH Scripting",
+        "Matlab",
+        "Verilog"
+      ]
+    },
+    {
+      "keywords": [
+        "CubeIDE",
+        "Simplicity Studio",
+        "HighTech IDE",
+        "ESP-IDF"
+      ],
+      "name": "Development Enviroments"
+    },
+    {
+      "keywords": [
+        "Vivado",
+        "Vitis",
+        "Petalinux"
+      ],
+      "name": "Xilinx Tools"
+    },
+    {
+      "keywords": [
+        "Git",
+        "Linux and Embedded Linux",
+        "Yocto Project",
+        "PCB Design (KiCAD)"
+      ],
+      "name": "Other skills"
+    }
+  ],
+  "projects": [
+    {
+      "name": "BSc Thesis",
+      "description": "A secondary bootloader for Infineon Aurix microcontroller. Implementing Software Over The Air by receiving the new image via TFTP, loading it into memory and activating it.",
+      "keywords": [
+        "C, Bash, Makefile"
+      ]
+    },
+    {
+      "keywords": [
+        "C++, Python"
+      ],
+      "name": "Sensor Network with BeagleBone and ESP32",
+      "description": "A sensor network capable of monitoring temperature lightning and other similar qualities. Using a BeagleBone and an ESP32 connected together as the head of the network, and ESP8266-s with sensors as the nodes.",
+      "url": "https://github.com/Goldan32/onlab"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
