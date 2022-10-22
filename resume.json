@@ -34,12 +34,21 @@
   "work": [
     {
       "highlights": [
+        "Implementing requested features in a bigger project using C/C++, BASH and yocto recipies"
+      ],
+      "company": "Flex",
+      "position": "Engineer, Junior Software",
+      "startDate": "2022"
+    },
+    {
+      "highlights": [
         "Assisting the Firmware Team by writing low level software codes and unit tests.",
         "Implementing bigger features and writing documentation."
       ],
       "company": "Flex",
       "position": "Software Developer Trainee",
-      "startDate": "2021"
+      "startDate": "2021",
+      "endDate": "2022"
     },
     {
       "company": "Budapest University of Technology and Economics",
@@ -76,10 +85,10 @@
     },
     {
       "keywords": [
-        "CubeIDE",
-        "Simplicity Studio",
-        "HighTech IDE",
-        "ESP-IDF"
+        "VSCode with gcc/g++ and Makefiles",
+        "Visual Studio",
+        "Eclipse based IDE-s",
+        "OpenBMC"
       ],
       "name": "Development Enviroments"
     },
