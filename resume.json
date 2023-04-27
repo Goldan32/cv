@@ -34,7 +34,8 @@
   "work": [
     {
       "highlights": [
-        "Implementing requested features in a bigger project using C/C++, BASH and yocto recipies"
+        "Implementing requested features in a bigger project using C/C++, BASH and yocto recipies.",
+        "Suggesting and implementing a firmware component version reader tool in C."
       ],
       "company": "Flex",
       "position": "Engineer, Junior Software",
@@ -76,36 +77,35 @@
       "name": "Programming Languages",
       "level": "",
       "keywords": [
-        "C/C++, Embedded C",
+        "C/C++",
+        "Embedded C",
+        "Rust",
         "Python",
         "BASH Scripting",
         "Matlab",
-        "Verilog"
+        "Verilog",
+        "Robot Framework"
       ]
     },
     {
       "keywords": [
-        "VSCode with gcc/g++ and Makefiles",
+        "gcc/g++",
+        "Makefiles",
+        "CMake",
         "Visual Studio",
         "Eclipse based IDE-s",
-        "OpenBMC"
+        "OpenBMC",
+        "Petalinux"
       ],
       "name": "Development Enviroments"
     },
     {
       "keywords": [
-        "Vivado",
-        "Vitis",
-        "Petalinux"
-      ],
-      "name": "Xilinx Tools"
-    },
-    {
-      "keywords": [
         "Git",
-        "Linux and Embedded Linux",
+        "Linux (usage and development)",
         "Yocto Project",
-        "PCB Design (KiCAD)"
+        "PCB Design (KiCAD)",
+        "JIRA, Confluence"
       ],
       "name": "Other skills"
     }
