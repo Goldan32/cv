@@ -1,0 +1,152 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Dániel} \headerlastnamestyle{Arany} \\
+	\vspace{2mm}
+	{\faEnvelope\ arany.daniel1999@gmail.com} | {\faMobile\ +36 30 290 1219} | {\faLink\ https://github.com/Goldan32}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{MSc in Electrical Engineering}
+	{Budapest University of Technology and Economics}
+	{Budapest}
+	{February 2022 – Present}
+	{}
+	\cventry
+	{BSc in Electrical Engineering}
+	{Budapest University of Technology and Economics}
+	{Budapest}
+	{September 2018 – January 2022}
+	{GPA: 4.6}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Engineer, Junior Software}
+	{Flex}
+	{}
+	{2022 – Present}
+	{\begin{cvitems}
+		\item {Implementing requested features in a bigger project using C/C++, BASH and yocto recipies.}
+		\item {Suggesting and implementing a firmware component version reader tool in C.}
+		\end{cvitems}}
+	\cventry
+	{Software Developer Trainee}
+	{Flex}
+	{}
+	{2021 – 2022}
+	{\begin{cvitems}
+		\item {Assisting the Firmware Team by writing low level software codes and unit tests.}
+		\item {Implementing bigger features and writing documentation.}
+		\end{cvitems}}
+	\cventry
+	{Demonstrator}
+	{Budapest University of Technology and Economics}
+	{}
+	{}
+	{\begin{cvitems}
+		\item {Teaching intro level programming and digital technology classes for first year students, by explaining and presenting solutions to tasks.}
+		\item {Assisting the instructor in computer labs by helping the students individually.}
+		\end{cvitems}}
+	\cventry
+	{Student Council Representative}
+	{Budapest University of Technology and Economics}
+	{}
+	{2020 – 2021}
+	{\begin{cvitems}
+		\item {Communicating with students mostly via email and advising them about school policy.}
+		\item {Representing student interests at various meetings.}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ C/C++, Embedded C, Rust, Python, BASH Scripting, Matlab, Verilog, Robot Framework}} \\
+		Development Enviroments:  & {\skill{ gcc/g++, Makefiles, CMake, Visual Studio, Eclipse based IDE-s, OpenBMC, Petalinux}} \\
+		Other skills:  & {\skill{ Git, Linux (usage and development), Yocto Project, PCB Design (KiCAD), JIRA, Confluence}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{A secondary bootloader for Infineon Aurix microcontroller. Implementing Software Over The Air by receiving the new image via TFTP, loading it into memory and activating it.}
+	{BSc Thesis}
+	{C, Bash, Makefile}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{A sensor network capable of monitoring temperature lightning and other similar qualities. Using a BeagleBone and an ESP32 connected together as the head of the network, and ESP8266-s with sensors as the nodes.}
+	{Sensor Network with BeagleBone and ESP32}
+	{C++, Python}
+	{https://github.com/Goldan32/onlab}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+
+\ 
+\end{document}
